@@ -1,0 +1,31 @@
+# Mafia
+# this project is an object oriented implementation of the famous game mafia.
+# in which there exists several roles with distinct capabilities.
+#
+# Roles: joker, villager, detective, doctor, rouintan, mafia, godfather, silencer
+#
+# creating a new game: Create_room <room_name> (- <role_name> <number>)*
+# example: Create_room room1 -Mafia 8 -Villager 10 -Godfather 1 ...
+#
+# switch games: Switch_room <room_name>
+#
+# add player to game: Join (<user_name>)*
+# example: Join john jack
+#          Join sarah
+#
+# voting in day : Vote <voter_name> <votee_name>
+#
+# End_vote
+#
+# Die <user_name>
+#
+# voting in night: Vote <voter_name> <Votee_name>
+#
+# detector's move: Detect <detective_name> <suspect_name>
+#
+# doctor's move : Heal <doctor_name> <person_name>
+#
+# silencer's move: Silent <silencer_name> <person_name>
+#
+# Get_room_state
+

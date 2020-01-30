@@ -1,0 +1,8 @@
+Create_room room1 -Mafia 2 -Villager 3 -Joker 1 -Doctor 1 -Silencer 1 -RouinTan 1
+Join sajjad ali hamid sara mahsa
+Vote sajjad hamid
+Vote sajjad ali
+Vote sajjad sajjad
+Vote ali hamid
+Vote hamid ali
+End_vote
